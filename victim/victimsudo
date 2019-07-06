@@ -1,0 +1,4 @@
+victim ALL=(root) NOPASSWD: /usr/bin/vim /etc/resolv.conf
+
+
+

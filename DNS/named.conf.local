@@ -1,0 +1,8 @@
+zone "example.com" {
+        type master;
+        file "/etc/bind/example.com.db";
+      };
+zone "0.17.172.in-addr.arpa" {
+        type master;
+        file "/etc/bind/172.17.0.db";
+      };

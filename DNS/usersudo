@@ -1,0 +1,9 @@
+jovyan ALL=(root) NOPASSWD: /usr/bin/vim /etc/bind/named.conf.options
+jovyan ALL=(root) NOPASSWD: /usr/bin/vim /etc/bind/named.conf
+jovyan ALL=(root) NOPASSWD: /usr/sbin/rndc 
+jovyan ALL=(root) NOPASSWD: /usr/sbin/service 
+jovyan ALL=(root) NOPASSWD: /usr/bin/vim /etc/bind/named.conf.local
+jovyan ALL=(root) NOPASSWD: /usr/bin/touch /etc/bind/example.com.db
+jovyan ALL=(root) NOPASSWD: /usr/bin/vim /etc/bind/example.com.db
+jovyan ALL=(root) NOPASSWD: /usr/bin/touch /etc/bind/172.17.0.db
+jovyan ALL=(root) NOPASSWD: /usr/bin/vim /etc/bind/172.17.0.db
