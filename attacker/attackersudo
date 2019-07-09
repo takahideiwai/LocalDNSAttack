@@ -1,0 +1,3 @@
+attacker ALL=(root) NOPASSWD: /usr/sbin/service 
+attacker ALL=(root) NOPASSWD: /etc/init.d/apache2  
+
