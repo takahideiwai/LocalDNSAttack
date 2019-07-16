@@ -1,6 +1,6 @@
 options {
         directory "/var/cache/bind";
-	dump-file "/var/cache/bind/dump.db";        
+	        
         // If there is a firewall between you and nameservers you want
         // to talk to, you may need to fix the firewall to allow multiple
         // ports to talk.  See http://www.kb.cert.org/vuls/id/800113
@@ -20,6 +20,7 @@ options {
         //========================================================================
         //dnssec-validation auto;
           dnssec-enable no;
+	  dump-file "/var/cache/bind/dump.db";
           auth-nxdomain no;    # conform to RFC1035
           listen-on-v6 { any; };
 };

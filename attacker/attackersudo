@@ -1,3 +1,6 @@
 attacker ALL=(root) NOPASSWD: /usr/sbin/service 
 attacker ALL=(root) NOPASSWD: /etc/init.d/apache2  
+attacker ALL=(root) NOPASSWD: /usr/bin/vim /etc/apache2/sites-available/000-default.conf
+attacker ALL=(root) NOPASSWD: /usr/bin/vim /etc/apache2/ports.conf
+
 

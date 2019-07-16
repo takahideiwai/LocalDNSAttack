@@ -22,5 +22,8 @@ COPY named.conf.local /etc/bind
 COPY example.com.db /etc/bind
 COPY 172.17.0.db /etc/bind
 
+EXPOSE 53/udp
+EXPOSE 53/tcp
+
 #Bypass authentication
 CMD ["start-notebook.sh","--NotebookApp.token="]
